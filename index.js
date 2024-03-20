@@ -91,7 +91,19 @@ const lua = [
          nome: "danielzinho",
          corFavorita: "verde",
          gostaDe: "dinossauros"},
+
+    {
+         nome: "clarinha",
+         corFavorita: "marrom",
+         gostaDe: "jogar jogos online"},
+
+    {
+         nome: "peter parker",
+         corFavorita: "vermelho",
+         gostaDe: "aranhas"},
 ]
+
+console.log(lua[3].nome,lua[3].corFavorita,lua[3].gostaDe);
 
 
 
