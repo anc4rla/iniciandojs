@@ -75,7 +75,7 @@ const escola = [
         turno: "Manhã"},
 ]
 
-console.log(escola[1].endereco,escola[1].nome)
+console.log(escola[1].endereco,escola[1].nome);
 
 const lua = [
     {
@@ -83,9 +83,16 @@ const lua = [
         corFavorita: "azul",
         gostaDe: "pintar e ler"},
     {
-         nome: ""
-        }
+         nome: "fernandinho",
+         corFavorita: "preto",
+         gostaDe: "programar"},
+
+    {
+         nome: "danielzinho",
+         corFavorita: "verde",
+         gostaDe: "dinossauros"},
 ]
+
 
 
 
