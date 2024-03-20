@@ -54,7 +54,38 @@ console.log (carla.sala)
 
 // as chaves iniciam e terminam um objeto, já as vírgulas, separarão propriedades e os pontos acessarão as propriedades.
 
-const escola = [{},{},{},{}]
+const escola = [
+    {
+        nome: "ana carla",
+        endereco: "Rua das árvores, 313 - Bairro do Limoeiro",
+        notaFinal: 10,
+        sala: 39,
+        turno: "Manhã"},
+    {
+        nome: "felipe",
+        endereco: "Rua das flores, 243 - Bairro do Amor",
+        notaFinal: 8,
+        sala: 39,
+        turno: "Manhã"},
+    {
+        nome: "alex",
+        endereco: "Rua dos espinhos, 336 - Bairro do Barro",
+        notaFinal: 7,
+        sala: 40,
+        turno: "Manhã"},
+]
+
+console.log(escola[1].endereco,escola[1].nome)
+
+const lua = [
+    {
+        nome: "mariazinha",
+        corFavorita: "azul",
+        gostaDe: "pintar e ler"},
+    {
+         nome: ""
+        }
+]
 
 
 
