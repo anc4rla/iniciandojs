@@ -105,6 +105,16 @@ const lua = [
 
 console.log(lua[3].nome,lua[3].corFavorita,lua[3].gostaDe);
 
+function soma (a,b) {
+    return a+b
+}
+
+console.log(soma (5,6))
+
+for (let i = 6 ; i< 18; i++){
+    console.log(i)
+}
+
 
 
 
